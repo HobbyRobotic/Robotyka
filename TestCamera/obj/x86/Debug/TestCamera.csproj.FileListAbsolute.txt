@@ -1,0 +1,13 @@
+/home/pi/Projects/TestCamera/TestCamera/bin/Debug/TestCamera.exe
+/home/pi/Projects/TestCamera/TestCamera/bin/Debug/TestCamera.pdb
+/home/pi/Projects/TestCamera/TestCamera/bin/Debug/Unosquare.RaspberryIO.dll
+/home/pi/Projects/TestCamera/TestCamera/bin/Debug/Unosquare.Swan.dll
+/home/pi/Projects/TestCamera/TestCamera/bin/Debug/Unosquare.Swan.Lite.dll
+/home/pi/Projects/TestCamera/TestCamera/bin/Debug/Unosquare.Swan.Lite.xml
+/home/pi/Projects/TestCamera/TestCamera/bin/Debug/Unosquare.Swan.xml
+/home/pi/Projects/TestCamera/TestCamera/bin/Debug/Unosquare.RaspberryIO.xml
+/home/pi/Projects/TestCamera/TestCamera/obj/x86/Debug/TestCamera.csprojAssemblyReference.cache
+/home/pi/Projects/TestCamera/TestCamera/obj/x86/Debug/TestCamera.csproj.CoreCompileInputs.cache
+/home/pi/Projects/TestCamera/TestCamera/obj/x86/Debug/TestCamera.csproj.CopyComplete
+/home/pi/Projects/TestCamera/TestCamera/obj/x86/Debug/TestCamera.exe
+/home/pi/Projects/TestCamera/TestCamera/obj/x86/Debug/TestCamera.pdb
