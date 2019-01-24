@@ -9,7 +9,7 @@ namespace TestCamera
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World2!");
+            Console.WriteLine("Hello World2!232323");
             TestCaptureImage();
         }
         static void TestCaptureImage()
