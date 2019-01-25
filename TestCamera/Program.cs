@@ -10,7 +10,8 @@ namespace TestCamera
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World2!2323dgffgd23");
-            TestCaptureImage();
+            //TestCaptureImage();
+            TestLedBlinking();
         }
         static void TestCaptureImage()
         {
@@ -35,9 +36,8 @@ namespace TestCamera
         {
             // Get a reference to the pin you need to use.
             // All 3 methods below are exactly equivalent
-            var blinkingPin = Pi.Gpio[0];
-            blinkingPin = Pi.Gpio[WiringPiPin.Pin00];
-            blinkingPin = Pi.Gpio.Pin00;
+            var blinkingPin = Pi.Gpio[18];
+            
 
             // Configure the pin as an output
             blinkingPin.PinMode = GpioPinDriveMode.Output;
