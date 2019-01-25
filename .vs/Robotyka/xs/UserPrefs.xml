@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{A8BA5554-E217-4385-A689-B8755693EDED}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestCamera/Program.cs">
+    <Files>
+      <File FileName="TestCamera/Program.cs" Line="49" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TestCamera PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
