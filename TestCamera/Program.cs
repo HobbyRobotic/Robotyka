@@ -2,6 +2,7 @@
 using System.IO;
 using Unosquare.RaspberryIO;
 using Unosquare.RaspberryIO.Gpio;
+using IronPython.Hosting;
 
 namespace TestCamera
 {
@@ -17,7 +18,7 @@ namespace TestCamera
 
         static void TestCaptureImage()
         {
-			Console.WriteLine("Hello World2!2323dgffgd23");
+			Console.WriteLine("He");
 
             var pictureBytes = Pi.Camera.CaptureImageJpeg(640, 480);
             var targetPath = "/home/pi/picture.jpg";
@@ -30,10 +31,20 @@ namespace TestCamera
 
 		static void TestMeasurement()
 		{
-			var sensor = new HCSR04();
+			var engine = Python.CreateEngine();
+			var searchPaths = engine.GetSearchPaths();
+			searchPaths.Add(@"/home/pi/Robotyka/TestCamera");
+			engine.SetSearchPaths(searchPaths);
+
+			var pythonFile = @"/home/pi/Robotyka/TestCamera/distance_sensor.py";
+			var scope = engine.CreateScope();
+			engine.CreateScriptSourceFromFile(pythonFile).Execute(scope);
+            
+            // var sensor = new HCSR04();
             for (var i = 0; i < 20; i++)
             {
-                Console.WriteLine($"Obecny dystans : {sensor.Distance}");
+				var result = scope.GetVariable<double>("dist");
+				Console.WriteLine($"Obecny dystans : {result} cm");
                 System.Threading.Thread.Sleep(2000);
             }
 		}

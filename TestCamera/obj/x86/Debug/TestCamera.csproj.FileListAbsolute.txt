@@ -24,3 +24,17 @@
 /home/pi/Robotyka/TestCamera/obj/x86/Debug/TestCamera.exe
 /home/pi/Robotyka/TestCamera/obj/x86/Debug/TestCamera.pdb
 /home/pi/Robotyka/TestCamera/obj/x86/Debug/TestCamera.csprojAssemblyReference.cache
+/home/pi/Robotyka/TestCamera/bin/Debug/IronPython.dll
+/home/pi/Robotyka/TestCamera/bin/Debug/IronPython.Modules.dll
+/home/pi/Robotyka/TestCamera/bin/Debug/IronPython.SQLite.dll
+/home/pi/Robotyka/TestCamera/bin/Debug/IronPython.Wpf.dll
+/home/pi/Robotyka/TestCamera/bin/Debug/Microsoft.Dynamic.dll
+/home/pi/Robotyka/TestCamera/bin/Debug/Microsoft.Scripting.dll
+/home/pi/Robotyka/TestCamera/bin/Debug/Microsoft.Scripting.Metadata.dll
+/home/pi/Robotyka/TestCamera/bin/Debug/Microsoft.Dynamic.xml
+/home/pi/Robotyka/TestCamera/bin/Debug/Microsoft.Scripting.xml
+/home/pi/Robotyka/TestCamera/bin/Debug/Microsoft.Scripting.Metadata.xml
+/home/pi/Robotyka/TestCamera/bin/Debug/IronPython.xml
+/home/pi/Robotyka/TestCamera/bin/Debug/IronPython.Modules.xml
+/home/pi/Robotyka/TestCamera/bin/Debug/IronPython.SQLite.xml
+/home/pi/Robotyka/TestCamera/bin/Debug/IronPython.Wpf.xml
